@@ -234,3 +234,104 @@ i{
     background-color: #003e75;
     border-radius: 1.8rem;
 }
+
+@media (max-width: 1025px){
+    .vid{
+        margin-top: 30.4rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    html{
+        font-size: 48% !important;
+    }
+
+    .hr-card{
+        flex-direction: column;
+    }
+
+    .hr-card-text2{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .vid{
+        margin-top: 46.4rem;
+    }
+
+    .s-sec-card p{
+        font-size: 1.6rem;
+    }
+
+    .container, .container-md, .container-sm {
+        max-width: 781px !important;
+    }
+}
+
+@media(max-width: 425px){
+    html{
+        font-size: 38% !important;
+    }
+
+    .hr-text-p2 {
+        width: 90%;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hr-card{
+        width: 75%;
+        top: 10px;
+    }
+
+    .hr-card-texts span{
+        font-size: 1.8rem;
+    }
+
+    .hr-card-texts p{
+        font-size: 2.4rem;
+    }
+
+    .grn-btn:link, .grn-btn:visited{
+        font-size: 2.4rem;
+    }
+
+    .vid{
+        margin-top: 56.4rem;
+    }
+
+    .s-sec-col{
+        display: flex;
+        flex-direction: column;
+        gap: 7.4rem;
+    }
+
+    .s-sec-card p{
+        font-size: 2.4rem;
+    }
+
+    .s-sec-card span{
+        font-size: 4.4rem;
+    }
+
+    .imp-card{
+        flex-direction: column;
+    }
+
+    .evnt, .jrn{
+        width: 90%;
+    }
+}
+
+@media(max-width: 320px){
+    html{
+        font-size: 28% !important;
+    }
+
+    .hr-card{
+        width: 77%;
+    }
+}
