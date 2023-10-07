@@ -1,0 +1,236 @@
+/* the color teme for the webpage designgs */
+/* color:
+#f03c1d 
+#003e75
+*/
+/********************************************/
+
+
+.hero-s{
+background-image: linear-gradient(rgba(0, 62, 117, 0.745), rgba(0, 62, 117, 0.652)),
+ url(../img/bg-hero_s.jpg);
+background-size: cover;
+background-position: center;
+padding-bottom: 8.8rem;
+border-bottom-right-radius: 1.8rem;
+border-bottom-left-radius: 1.8rem;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6.4rem;
+}
+
+.hr-text-p1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f03c1d;
+    margin-bottom: 1rem;
+}
+
+.hr-h2{
+    font-size: 4.4rem;
+    text-transform: capitalize;
+    margin-bottom: 1.4rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hr-text-p2{
+    font-size: 2.4rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+    color: #fff
+}
+
+.grn-btn:link,
+.grn-btn:visited{
+    color: #fff;
+    padding: 1rem;
+    border-radius: 2.4rem;
+    text-transform: capitalize;
+    background-color: #f03c1d;
+    font-size: 1.6rem;
+    border: 2px solid #f03c1d;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.grn-btn:hover,
+.grn-btn:active{
+transition: 1s;
+color: #f03c1d;
+background: transparent;
+border-radius: 2.4rem;
+}
+
+.hr-card-texts span,
+.hr-card-texts h3,
+.hr-card-texts p{
+    color: #003e75;
+}
+
+.abs{
+    position: relative;
+}
+
+.hr-card{
+    padding: 2.4rem;
+    display: flex; 
+    gap: 1.8rem;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;
+    backdrop-filter: blur(5px);
+    border-radius: 1.2rem;
+    border: 2px solid #003e75;
+    position: absolute;
+    top: 25px;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    box-shadow: 4px 9px 10px 6px rgba(102, 102, 102, 0.427);
+}
+
+
+.hr-card-text2 p{
+    color: #003e75;
+}
+
+.hr-card-texts span{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #f03c1d;
+}
+
+.hr-card-texts h3{
+    font-size: 3.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.hr-card-texts p{
+    font-size: 1.8rem;
+}
+
+.hr-card-text2{
+    text-align: center;
+    background-color: #fff;
+    padding: 2.4rem;
+    border-radius: 1.2rem;
+    width: 101rem;
+    box-shadow: 4px 9px 10px 6px rgba(102, 102, 102, 0.427);
+}
+
+.vid{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 24.4rem;
+  margin-bottom: 5.8rem;
+}
+
+.s-sec-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1.2rem;
+    margin-bottom: 5.8rem;
+}
+
+.s-sec-card span{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #003e75;
+    margin-bottom: 1rem;
+}
+
+.s-sec-card p{
+    font-size: 1.8rem;
+    color: #003e75;
+    margin-bottom: 1.2rem;
+}
+
+i{
+    font-size: 3.2rem;
+    color: #003e75;
+}
+
+.imp-card{
+    display: flex;
+    gap: 2.8rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.evnt,
+.jrn{
+    padding: 2.4rem;
+    width: 50%;
+}
+
+.evnt-btn:link,
+.evnt-btn:visited{
+    color: #fff;
+    padding: 1rem;
+    border-radius: 2.4rem;
+    text-transform: capitalize;
+    background-color: #003e75;
+    font-size: 1.8rem;
+    border: 2px solid #003e75;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    text-transform: capitalize;
+}
+
+.evnt-btn:hover,
+.evnt-btn:active{
+    transition: 1s;
+    color: #003e75;
+    border: 2px solid #003e75;
+    background: transparent;
+}
+
+.evnt span,
+.jrn span{
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+
+.evnt p,
+.jrn p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 4.4rem;
+}
+
+.evnt span{
+    color: #003e75;
+}
+
+.jrn span{
+    color: #f03c1d;
+}
+
+.evnt{
+    background-color: #f03c1d;
+    border-radius: 1.8rem;
+}
+
+.jrn{
+    background-color: #003e75;
+    border-radius: 1.8rem;
+}

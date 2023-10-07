@@ -1,0 +1,134 @@
+/* the color teme for the webpage designgs */
+/* color:
+#f03c1d 
+#003e75
+*/
+/********************************************/
+
+html{
+    font-size: 62%;
+ }
+ 
+ body{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.4rem;
+ }
+
+ body::-webkit-scrollbar{
+  display: none;
+ }
+
+ header{
+   width: 90%;
+   margin: 0 auto;
+ }
+
+ .navbar-toggler-icon{
+   width: 2.5em;
+    height: 2.5em;
+    
+ }
+
+ .text-bg-dark {
+   background-color: #003e750d !important;
+ }
+
+ .bg-dark{
+   background: transparent !important;
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+ .offcanvas-title{
+   font-size: 1.6rem;
+    font-weight: 700;
+    color: #f03c1d;
+ }
+
+ .offcanvas-body{
+   backdrop-filter: blur(4px);
+ }
+
+ footer{
+   background-color: #003e75;
+   border-top-right-radius: 1.8rem;
+   border-top-left-radius: 1.8rem;
+   padding-bottom: 4.4rem;
+ }
+
+.footer-flex{
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+.footer-flex h3{
+   color: #fff;
+   font-size: 3.8rem;
+   margin: 0 auto;
+   margin-top: 4.4rem;
+   margin-bottom: 1.6rem;
+   text-align: center;
+   width: 65%;
+
+}
+
+.footer-flex2{
+   display: flex;
+   gap: 1.8rem;
+}
+
+.footer-flex2 p{
+   font-size: 1.6rem;
+   color: #fff;
+   margin-bottom: 1.2rem;
+}
+
+.footer-btn{
+   display: flex;
+   gap: 14rem;
+}
+
+.footer-btn a{
+   padding: 0.5rem 1.2rem;
+   font-size: 1.6rem;
+   margin-bottom: 1.6rem;
+}
+
+.ft-btn1:link,
+.ft-btn1:visited{
+   color: #fff;
+   background-color: #f03c1d;
+   border: 2px solid #f03c1d;
+   border-radius: 1.8rem;
+}
+
+.ft-btn1:hover,
+.ft-btn1:active{
+   transition: 1s;
+   color: #f03c1d;
+   background: transparent;
+}
+
+.ft-btn2:link,
+.ft-btn2:visited{
+   color: #f03c1d;
+   background: transparent;
+   border: 2px solid #f03c1d;
+   border-radius: 1.8rem;
+}
+
+.ft-btn2:hover,
+.ft-btn2:active{
+   transition: 1s;
+   color: #fff;
+   background: #f03c1d;
+}
