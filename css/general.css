@@ -20,39 +20,62 @@ html{
  body::-webkit-scrollbar{
   display: none;
  }
-
+ /*for the header nav-codes_designs*/
  header{
-   width: 90%;
-   margin: 0 auto;
- }
+    width: 90%;
+    margin: 0 auto;
+   }
 
- .navbar-toggler-icon{
-   width: 2.5em;
-    height: 2.5em;
-    
- }
+   .bg-dark{
+      background: transparent !important;
+   }
 
- .text-bg-dark {
-   background-color: #003e750d !important;
- }
+   .active{
+      border-bottom: 3px solid #f03c1d;
+   }
 
- .bg-dark{
-   background: transparent !important;
- }
+   .logo-wdth{
+      width: 6%;
+   }
 
- a{
+   .justify-content-end{
+      gap: 1.8rem;
+   }
+
+   .justify-content-end li a{
+      font-size: 1.6rem;
+      width: 100%;
+   }
+
+   ul,
+   li{
+      list-style: none;
+   }
+
+   .navbar-nav-flex-box li a{
+      font-size: 1.6rem;
+   }
+
+   .hover:after{
+      content: '';
+      width: 0;
+      height: 2px;
+      background: #f03c1d;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+      color: #fff;
+   }
+
+   .hover:hover::after{
+      width: 100%;
+   }
+   
+/*for the header nav-codes_designs*/
+
+a{
    text-decoration: none;
- }
-
- .offcanvas-title{
-   font-size: 1.6rem;
-    font-weight: 700;
-    color: #f03c1d;
- }
-
- .offcanvas-body{
-   backdrop-filter: blur(4px);
- }
+}
 
  footer{
    background-color: #003e75;
@@ -133,8 +156,26 @@ html{
    background: #f03c1d;
 }
 
-@media(max-width: 768px){
+.ft-icon{
+   color: #f03d1d50;
+   font-size: 2rem;
+}
+
+@media(max-width: 1023px){
+
+}
+
+@media(max-width: 767px){
    .footer-flex h3{
       font-size: 2.8rem;
+   }
+
+   .offcanvas{
+      background-color: none;
+      filter: blur(2px) !;
+   }
+
+   .logo-wdth{
+      width: 10% !important;
    }
 }
